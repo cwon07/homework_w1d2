@@ -24,3 +24,15 @@
 li {
     display:inLine;
 }
+
+.column {
+   float: left;
+   width: 33.33%;
+   background-color: #ccc;
+}
+
+.row:after {
+   content: "";
+   display: table;
+   clear: both;
+}
